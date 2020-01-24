@@ -3,8 +3,8 @@ class InterleavingTwoArrayToThirdArray2{
 	public static void main(String args[]){
 		int arr1[]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17};
 		int arr2[]={};
-		//int size=(int)Math.ceil((double)arr1.length/2)+(arr2.length/2); // use any one
-		int size= (arr1.length/2)%2 == 0 ? (arr1.length/2+(arr2.length/2)) : (arr1.length/2+1+(arr2.length/2));
+		int size=(int)Math.ceil((double)arr1.length/2)+(arr2.length/2); // use any one
+// 		int size= (arr1.length)%2 == 0 ? (arr1.length/2+(arr2.length/2)) : (arr1.length/2+1+(arr2.length/2));
 		int arr3[]=new int[size];
 		List<Integer> list=new ArrayList<>();
 		int temp=0;
